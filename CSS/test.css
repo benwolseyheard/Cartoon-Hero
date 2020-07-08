@@ -1,0 +1,43 @@
+/* use STYLE to style all your selected elements e.g. h1 elements */
+body{
+    background-color: rgb(26, 26, 26);
+}
+
+h1 {
+    font-size: 30px;
+    color: #ffc300;
+}
+h2 {
+    font-size: 20px;
+}
+.big{
+    font-size: 15px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.big.uppercase{
+    color:coral
+}
+h1 span{
+    color: violet;
+}
+/*
+<!-- RULESET starts w ur selected elmt h1 followed by the delaration block inside curly bracket. Each line is a Declaration w a property: value; -->
+</style>
+
+<!-- Use htmlcolorcodes to find and select colours using either the colourname, hexcode value or RGD values -->
+
+SOME OF THESE ARE FOR HTML
+
+If we have a conflict the more specific one will win. this means red wouldn't display if there was also a more specific style like salmon for the same element.
+
+Similarly, if there are 2 styles with the same specificity, the one that was written last takes presidence.
+
+The .big means I declare all the elements with the class big should...
+
+We can comine declarations by adding a space inbetween our code class" big uppercase" has both .big and .uppercase styles on it
+
+Adding to this feature we can set styles that only apply to elements with both of those using .big.uppercase in the styling
+
+A span is like a blank box. Span element inherits the textiles from the lements it's inside of

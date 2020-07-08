@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Style Test</title>
+
+    <!-- use STYLE to style all your selected elements e.g. h1 elements-->
+    <link rel="stylesheet" type="text/css" href="css/test.css" />
+  </head>
+  <body>
+    <span>Span element</span>
+    <h1 class="uppercase"><span>Heading 1 </span>- 1</h1>
+    <h1 class="big uppercase">Heading 1 - 2</h1>
+    <h1 class="big">Heading 1 - 3</h1>
+    <!-- Use htmlcolorcodes to find and select colours using either the colourname, hexcode value or RGD values -->
+
+    <!-- NOTICE THE CHANGE IN HEADINGS -->
+    <h2 style="color: MEDIUMAQUAMARINE;">Heading 2 - 1</h2>
+    <h2 style="color: MEDIUMAQUAMARINE;">Heading 2 - 2</h2>
+    <h2 style="color: MEDIUMAQUAMARINE;">Heading 2 - 3</h2>
+  </body>
+</html>
+
+<!--
+If we have a conflict the more specific one will win. this means red wouldn't display if there was also a more specific style like salmon for the same element.
+
+Similarly, if there are 2 styles with the same specificity, the one that was written last takes presidence.
+
+The .big means I declare all the elements with the class big should...
+
+We can comine declarations by adding a space inbetween our code class" big uppercase" has both .big and .uppercase styles on it
+
+Adding to this feature we can set styles that only apply to elements with both of those using .big.uppercase in the styling
+
+A span is like a blank box. Span element inherits the textiles from the lements it's inside of-->

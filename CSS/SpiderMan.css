@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-size: 20px;
+}
+
+header {
+  background-color: mediumpurple;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1 & h2 {
+  font-family: "Bangers", cursive;
+}
+/* THIS TEXT NOT WORKING */
+header h1 {
+  colour: white;
+  font-size: 40px;
+  /* You must supply a few fonts so that if the user's computer doesn't have the font another will display in it's place.
+  We can use WEBFONTS to prevent this = use fonts.google */
+}
+
+header img {
+  border-radius: 170px;
+  width: 400px;
+  border: 10px solid black;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  /* margin = used to centre items */
+  padding: 0 20px;
+  /* this is 0 padding vertical, 20px padding horizontal */
+}
+main img {
+  max-width: 100%;
+}
+/* by doing this it scales the image and makes it fit within our max width */
+
+h2 {
+  font-size: 25px;
+  color: navy;
+  margin: 40px 0 10px;
+}
+
+a {
+  color: navy;
+}
+a:hover {
+  color: crimson;
+}
+/* changes colour when you hover over text */
+
+footer {
+  background-color: mediumpurple;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* This p.caption isnt relevant for any of the code  */
+p.caption {
+  color: #999999;
+  font-style: italic;
+  margin-top: auto;
+}
